@@ -18,7 +18,7 @@ app.get('/watch', async (req, res) => {
 app.get('/info', async (req, res) => {
   if (!req.query.v) return res.end('Invalid link');
   const link = `https://www.youtube.com/?v=${req.query.v}`;
-  const info = await ytdl.getInfo(link)
+  const info = await ytdl.getBasicInfo(link)
   console.log(info)
   // res.attachment('video.mp4')
   // ytdl(link).pipe(res)
