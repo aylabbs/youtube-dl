@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/aylabbs/youtube-dl/issues"
   },
-  "homepage": "https://github.com/aylabbs/youtube-dl#readme"
+  "homepage": "https://github.com/aylabbs/youtube-dl#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl": "^1.2.0"
+  }
 }
