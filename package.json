@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec \"node --inspect index.js\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aylabbs/youtube-dl#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
     "ytdl": "^1.2.0"
   }
 }
